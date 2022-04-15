@@ -86,7 +86,7 @@ class CalenderExercise {
 				ce.yearCheck(year);
 				if (year == 0) { // 프로그램 종료
 					break;
-				} else if (year < 99) { // yearCheck 메소드에서 실행이 안되서 메인으로 옮겼어요
+				} else if (year < 99) { 
 					year += 1900;
 				}
 			} catch (DateInputException e) {
